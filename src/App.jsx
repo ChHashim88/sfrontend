@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/tasks";
+const API_URL = "https://taskmanagementbackendeve.netlify.app/tasks";
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
